@@ -32,10 +32,12 @@
 		<maven.compiler.source>17</maven.compiler.source>
 
 		<!-- Configuración para SonarCloud -->
-		<sonar.projectKey>Allancontreras_booking</sonar.projectKey>
-		<sonar.projectName>booking</sonar.projectName>
-		<sonar.organization>allancontreras</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		
+		  <sonar.organization>daviidc29</sonar.organization>
+		  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
+		<sonar.projectKey>daviidc29_prueba</sonar.projectKey>
+		<sonar.projectName>prueba</sonar.projectName>
 
 		<!-- Configuración de cobertura -->
 		<sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
